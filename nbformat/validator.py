@@ -23,14 +23,14 @@ _deprecated = object()
 
 
 __all__ = [
+    "NotebookValidationError",
     "ValidationError",
+    "better_validation_error",
     "get_validator",
     "isvalid",
-    "NotebookValidationError",
-    "better_validation_error",
+    "iter_validate",
     "normalize",
     "validate",
-    "iter_validate",
 ]
 
 
